@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box ;
+}
+html{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: khaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    font-size: 20px;
+    color: brown;
+    text-decoration: none;
+}
+.item-1{
+    background-image: url('https://images.unsplash.com/photo-1548217395-6c6095abb49c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');
+    background-size: 100% 100%;
+    grid-row: 3/4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border-radius: 15px;
+    text-align: center;
+    mix-blend-mode: multiply;
+    align-items: center;
+    width: 22rem;
+    height: 12rem;
+    margin-left: 0%;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+.item-2{
+    background-image: url('https://images.unsplash.com/photo-1536152470836-b943b246224c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');
+    background-size: 100% 100%;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    border-radius: 15px;
+    text-align: center;
+    mix-blend-mode: multiply;
+    align-items: center;
+    width: 22rem;
+    height: 12rem;
+    margin-left: 0%;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.item-3{
+    background-image: url('https://images.unsplash.com/photo-1483197452165-7abc4b248905?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: 100% 100%;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-area: 1 / 1 / 2 / 2;
+    border-radius: 15px;
+    text-align: center;
+    mix-blend-mode: multiply;
+    align-items: center;
+    width: 22rem;
+    height: 12rem;
+    margin-left: 0%;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.item-4{
+    background-image: url('https://images.unsplash.com/photo-1504215680853-026ed2a45def?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: 100% 100%;
+    border-radius: 15px;
+    text-align: center;
+    mix-blend-mode: multiply;
+    align-items: center;
+    width: 22rem;
+    height: 12rem;
+    margin-left: 0%;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.item-5{
+    background-image: url('https://images.unsplash.com/photo-1547626740-02cb6aed9ef8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: 100% 100%;
+    border-radius: 15px;
+    text-align: center;
+    mix-blend-mode: multiply;
+    align-items: center;
+    width: 22rem;
+    height: 12rem;
+    margin-left: 0%;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+.item-6{
+    background-image: url('https://images.unsplash.com/photo-1549088521-94b6502fec3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: 100% 100%;
+    border-radius: 15px;
+    text-align: center;
+    mix-blend-mode: multiply;
+    align-items: center;
+    width: 22rem;
+    height: 12rem;
+    margin-left: 0%;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+.item-7{
+    background-image: url('https://images.unsplash.com/photo-1549221838-126dc3ebf29f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NzZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: 100% 100%;
+    border-radius: 15px;
+    text-align: center;
+    mix-blend-mode: multiply;
+    align-items: center;
+    width: 22rem;
+    height: 12rem;
+    margin-left: 0%;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+.item-8{
+    background-image: url('https://images.unsplash.com/photo-1549464650-6de5dfe5b7ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8ODN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: 100% 100%;
+    border-radius: 15px;
+    text-align: center;
+    mix-blend-mode: multiply;
+    align-items: center;
+    width: 22rem;
+    height: 12rem;
+    margin-left: 0%;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+.item-9{
+    background-image: url('https://images.unsplash.com/photo-1550319932-8ebbfd58d99e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTIxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: 100% 100%;
+    border-radius: 15px;
+    text-align: center;
+    mix-blend-mode: multiply;
+    align-items: center;
+    width: 22rem;
+    height: 12rem;
+    margin-left: 0%;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+.container {
+    width: 1200px;
+    box-shadow: rgba(red, green, blue, alpha);
+    display: grid;
+    grid-template-columns: 400px 400px 400px ;
+    grid-template-rows:  200px 200px 200px;
+    /* grid-column-gap: 30px;
+    grid-row-gap: 30px; */
+    grid-gap: 30px;
+}
+    </style>
+    <title>Grid_Area</title>
+</head>
+<body>
+    <div class="container">
+        <div class="item-1">
+            <p><center> To visit this place <br>
+            please prove your identity <br></center></p> 
+            <input type="text" placeholder="your name please">
+            <a  href="https://web.facebook.com/aamyjan" target="_blank" rel="noopener noreferrer">Go</a>
+        </div>
+        <div class="item-2">
+            <p><center> To visit this place <br>
+            please prove your identity <br></center></p> 
+            <input type="text" placeholder="your name please">
+            <a  href="https://web.facebook.com/aamyjan" target="_blank" rel="noopener noreferrer">Go</a>
+        </div>
+        <div class="item-3">
+            To visit this place <br>
+            please prove your identity <br>
+            <input type="text" placeholder="your name please">
+            <a  href="https://web.facebook.com/aamyjan" target="_blank" rel="noopener noreferrer">Go</a>
+        </div>
+        <div class="item-4">
+            <p><center> To visit this place <br>
+            please prove your identity <br></center></p> 
+            <input type="text" placeholder="your name please">
+            <a  href="https://web.facebook.com/aamyjan" target="_blank" rel="noopener noreferrer">Go</a>
+        </div>
+        <div class="item-5">
+            <p><center> To visit this place <br>
+            please prove your identity <br></center></p> 
+            <input type="text" placeholder="your name please">
+            <a  href="https://web.facebook.com/aamyjan" target="_blank" rel="noopener noreferrer">Go</a>
+        </div>
+        <div class="item-6">
+            <p><center> To visit this place <br>
+            please prove your identity <br></center></p> 
+            <input type="text" placeholder="your name please">
+            <a  href="https://web.facebook.com/aamyjan" target="_blank" rel="noopener noreferrer">Go</a>
+        </div>
+        <div class="item-7">
+            <p><center> To visit this place <br>
+            please prove your identity <br></center></p> 
+            <input type="text" placeholder="your name please">
+            <a  href="https://web.facebook.com/aamyjan" target="_blank" rel="noopener noreferrer">Go</a>
+        </div>
+        <div class="item-8">
+            <p><center> To visit this place <br>
+            please prove your identity <br></center></p> 
+            <input type="text" placeholder="your name please">
+            <a  href="https://web.facebook.com/aamyjan" target="_blank" rel="noopener noreferrer">Go</a>
+        </div>
+        <div class="item-9">
+            <p><center> To visit this place <br>
+            please prove your identity <br></center></p> 
+            <input type="text" placeholder="your name please">
+            <a  href="https://web.facebook.com/aamyjan" target="_blank" rel="noopener noreferrer">Go</a>
+        </div>
+    </div>
+</div>   
+</body>
+</html>
